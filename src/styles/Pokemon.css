@@ -1,0 +1,50 @@
+.pokemon-container-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    width: 30%;
+    box-shadow: 0.1rem 0.1rem 0.2rem rgb(150, 191, 191);
+    flex: 0 300px;
+    height: max-content;
+    h2{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+        margin: 5%;
+    }
+    
+}
+
+.pokemon-edit-buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    form{
+        flex: 2;
+    }
+
+    form > button{
+        width: 100%;
+    }
+
+    form > button, .edit-pokemon{
+        padding: 0;
+        border: none;
+        border-radius: 1rem;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 1%;
+    }
+    .edit-pokemon{
+        background-color: rgb(138, 138, 249);
+        flex:1.5;
+    }
+    form > button{
+        background-color: red;
+    }
+}

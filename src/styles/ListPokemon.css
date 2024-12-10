@@ -1,0 +1,30 @@
+.list-pokemon-container{
+    border:1px solid black ;
+    border-radius: 2rem;
+    width: 60%;
+    margin: 2% auto;
+    overflow-y: auto;
+    height: calc(100vh - 45vh);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.list-container{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-pokemon{
+    color: black;
+    font-size: 100%;
+    background-color: rgb(138, 138, 249);
+    border-radius: 1rem;
+    width: max-content;
+    padding: 1%;
+    text-align: center;
+    
+}

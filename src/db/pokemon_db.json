@@ -1,0 +1,7387 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "types": [
+      "Grama",
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 49
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 49
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 45
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ivysaur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "types": [
+      "Grama",
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 62
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 63
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 60
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "venusaur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "types": [
+      "Grama",
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 82
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 83
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 80
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 39
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 52
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 43
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 65
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "charmeleon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 58
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 64
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 58
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 80
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "charizard",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "types": [
+      "Fogo",
+      "Voador"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 78
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 84
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 78
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 109
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 100
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "squirtle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 44
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 48
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 64
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 43
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "wartortle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 59
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 63
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 58
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "blastoise",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 79
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 83
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 100
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 105
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 78
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "caterpie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+    "types": [
+      "Inseto"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 30
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 20
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 20
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 45
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "metapod",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+    "types": [
+      "Inseto"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 20
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 30
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "butterfree",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+    "types": [
+      "Inseto",
+      "Voador"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "compound-eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "weedle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 20
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 20
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 50
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "kakuna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 25
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 35
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "beedrill",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 75
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "pidgey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    "types": [
+      "Normal",
+      "Voador"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 56
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "pidgeotto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+    "types": [
+      "Normal",
+      "Voador"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 63
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 71
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "pidgeot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    "types": [
+      "Normal",
+      "Voador"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 83
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 75
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 101
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "rattata",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 56
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 72
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "raticate",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 81
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 97
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "spearow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+    "types": [
+      "Normal",
+      "Voador"
+    ],
+    "habitat": "rough-terrain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 31
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 31
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "fearow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+    "types": [
+      "Normal",
+      "Voador"
+    ],
+    "habitat": "rough-terrain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 61
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 61
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 100
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "ekans",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 44
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 54
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 55
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "arbok",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 69
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 79
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 80
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "types": [
+      "Elétrico"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "raichu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "types": [
+      "Elétrico"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 110
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "sandshrew",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+    "types": [
+      "Terra"
+    ],
+    "habitat": "rough-terrain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-rush",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 75
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 85
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 20
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 30
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 40
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "sandslash",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+    "types": [
+      "Terra"
+    ],
+    "habitat": "rough-terrain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-rush",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 75
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 110
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 65
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "nidoran-f",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 47
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 52
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 41
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "nidorina",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 62
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 67
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 56
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "nidoqueen",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+    "types": [
+      "Venenoso",
+      "Terra"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 92
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 87
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 76
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "nidoran-m",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 46
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 57
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 50
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "nidorino",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 61
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 72
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 57
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 65
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "nidoking",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+    "types": [
+      "Venenoso",
+      "Terra"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 81
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 102
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 77
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 85
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "clefairy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+    "types": [
+      "Fada"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 48
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 35
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "clefable",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+    "types": [
+      "Fada"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 73
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 60
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "vulpix",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "drought",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 38
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 41
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 65
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "ninetales",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "drought",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 73
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 76
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 75
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 81
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 100
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "jigglypuff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+    "types": [
+      "Normal",
+      "Fada"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false
+      },
+      {
+        "name": "competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 115
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 20
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 20
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "wigglytuff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+    "types": [
+      "Normal",
+      "Fada"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false
+      },
+      {
+        "name": "competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 140
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 45
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "zubat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+    "types": [
+      "Venenoso",
+      "Voador"
+    ],
+    "habitat": "cave",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 30
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 55
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "golbat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+    "types": [
+      "Venenoso",
+      "Voador"
+    ],
+    "habitat": "cave",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 75
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "oddish",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+    "types": [
+      "Grama",
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 30
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "gloom",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+    "types": [
+      "Grama",
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "stench",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 40
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "vileplume",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+    "types": [
+      "Grama",
+      "Venenoso"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "effect-spore",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 75
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 85
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 110
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 50
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "paras",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+    "types": [
+      "Inseto",
+      "Grama"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "effect-spore",
+        "is_hidden": false
+      },
+      {
+        "name": "dry-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 25
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "parasect",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+    "types": [
+      "Inseto",
+      "Grama"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "effect-spore",
+        "is_hidden": false
+      },
+      {
+        "name": "dry-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 30
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "venonat",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "compound-eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": false
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 45
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "venomoth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": false
+      },
+      {
+        "name": "wonder-skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "diglett",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+    "types": [
+      "Terra"
+    ],
+    "habitat": "cave",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "arena-trap",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 10
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 25
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 95
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "dugtrio",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+    "types": [
+      "Terra"
+    ],
+    "habitat": "cave",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "arena-trap",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 120
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "meowth",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "persian",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 115
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "psyduck",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 52
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 48
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 55
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "golduck",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 82
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 78
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 85
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "mankey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+    "types": [
+      "Lutador"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "vital-spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": false
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "primeape",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+    "types": [
+      "Lutador"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "vital-spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": false
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 105
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 95
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "growlithe",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "justified",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 60
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "arcanine",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "justified",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 110
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 95
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "poliwag",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "poliwhirl",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "poliwrath",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+    "types": [
+      "Água",
+      "Lutador"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "abra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+    "types": [
+      "Psíquico"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 25
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 20
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 15
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 105
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "kadabra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+    "types": [
+      "Psíquico"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 120
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 105
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "alakazam",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    "types": [
+      "Psíquico"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 135
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 120
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "machop",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "types": [
+      "Lutador"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 35
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "machoke",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+    "types": [
+      "Lutador"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 45
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "machamp",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "types": [
+      "Lutador"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 130
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 55
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "bellsprout",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+    "types": [
+      "Grama",
+      "Venenoso"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 75
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 30
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 40
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "weepinbell",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+    "types": [
+      "Grama",
+      "Venenoso"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 55
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "victreebel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+    "types": [
+      "Grama",
+      "Venenoso"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 105
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "tentacool",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+    "types": [
+      "Água",
+      "Venenoso"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false
+      },
+      {
+        "name": "liquid-ooze",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "tentacruel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+    "types": [
+      "Água",
+      "Venenoso"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false
+      },
+      {
+        "name": "liquid-ooze",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 120
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 100
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "geodude",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+    "types": [
+      "Pedra",
+      "Terra"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 100
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 30
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 30
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 20
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "graveler",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+    "types": [
+      "Pedra",
+      "Terra"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 115
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 35
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "golem",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+    "types": [
+      "Pedra",
+      "Terra"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 120
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 130
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 45
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "ponyta",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "rapidash",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 105
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "slowpoke",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+    "types": [
+      "Água",
+      "Psíquico"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 15
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "slowbro",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+    "types": [
+      "Água",
+      "Psíquico"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 75
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 110
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 30
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "magnemite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+    "types": [
+      "Elétrico",
+      "Metálico"
+    ],
+    "habitat": "rough-terrain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "magnet-pull",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 25
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 45
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "magneton",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+    "types": [
+      "Elétrico",
+      "Metálico"
+    ],
+    "habitat": "rough-terrain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "magnet-pull",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 120
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "farfetchd",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+    "types": [
+      "Normal",
+      "Voador"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 52
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 58
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 62
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 60
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "doduo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+    "types": [
+      "Normal",
+      "Voador"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "early-bird",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 75
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "dodrio",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+    "types": [
+      "Normal",
+      "Voador"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "early-bird",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 110
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 110
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "seel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false
+      },
+      {
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 45
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "dewgong",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+    "types": [
+      "Água",
+      "Gelo"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false
+      },
+      {
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "grimer",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "stench",
+        "is_hidden": false
+      },
+      {
+        "name": "sticky-hold",
+        "is_hidden": false
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 25
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "muk",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "stench",
+        "is_hidden": false
+      },
+      {
+        "name": "sticky-hold",
+        "is_hidden": false
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 105
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 105
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 75
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 50
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "shellder",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "skill-link",
+        "is_hidden": false
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 100
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 40
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "cloyster",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+    "types": [
+      "Água",
+      "Gelo"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "skill-link",
+        "is_hidden": false
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 180
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "gastly",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "types": [
+      "Fantasma",
+      "Venenoso"
+    ],
+    "habitat": "cave",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 80
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "haunter",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+    "types": [
+      "Fantasma",
+      "Venenoso"
+    ],
+    "habitat": "cave",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 115
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 95
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "gengar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "types": [
+      "Fantasma",
+      "Venenoso"
+    ],
+    "habitat": "cave",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "cursed-body",
+        "is_hidden": false
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 130
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 110
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "onix",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+    "types": [
+      "Pedra",
+      "Terra"
+    ],
+    "habitat": "cave",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 160
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 30
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "drowzee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+    "types": [
+      "Psíquico"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 48
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 43
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 42
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "hypno",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+    "types": [
+      "Psíquico"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 85
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 73
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 73
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 115
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 67
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "krabby",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 105
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 50
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "kingler",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 130
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 115
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 75
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "voltorb",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+    "types": [
+      "Elétrico"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "aftermath",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 30
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 100
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "electrode",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+    "types": [
+      "Elétrico"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "aftermath",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 150
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "exeggcute",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+    "types": [
+      "Grama",
+      "Psíquico"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 40
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "exeggutor",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+    "types": [
+      "Grama",
+      "Psíquico"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 85
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 125
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 55
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "cubone",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+    "types": [
+      "Terra"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": false
+      },
+      {
+        "name": "battle-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 35
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "marowak",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+    "types": [
+      "Terra"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": false
+      },
+      {
+        "name": "battle-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 110
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 45
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "hitmonlee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+    "types": [
+      "Lutador"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "name": "reckless",
+        "is_hidden": false
+      },
+      {
+        "name": "unburden",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 120
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 53
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 110
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 87
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "hitmonchan",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+    "types": [
+      "Lutador"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 105
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 79
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 110
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 76
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "lickitung",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 75
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 30
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "koffing",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "neutralizing-gas",
+        "is_hidden": false
+      },
+      {
+        "name": "stench",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 35
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "weezing",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+    "types": [
+      "Venenoso"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "neutralizing-gas",
+        "is_hidden": false
+      },
+      {
+        "name": "stench",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 120
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 60
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "rhyhorn",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+    "types": [
+      "Terra",
+      "Pedra"
+    ],
+    "habitat": "rough-terrain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "is_hidden": false
+      },
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 30
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 30
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 25
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "rhydon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+    "types": [
+      "Terra",
+      "Pedra"
+    ],
+    "habitat": "rough-terrain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "is_hidden": false
+      },
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 105
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 130
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 120
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 40
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "chansey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false
+      },
+      {
+        "name": "serene-grace",
+        "is_hidden": false
+      },
+      {
+        "name": "healer",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 250
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 5
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 5
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 105
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 50
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "tangela",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+    "types": [
+      "Grama"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "leaf-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 115
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 60
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "kangaskhan",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "early-bird",
+        "is_hidden": false
+      },
+      {
+        "name": "scrappy",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 105
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "horsea",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 25
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 60
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "seadra",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 85
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "goldeen",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 67
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 35
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 63
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "seaking",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 92
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 68
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "staryu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 85
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "starmie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+    "types": [
+      "Água",
+      "Psíquico"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 75
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 85
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 115
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "mr-mime",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+    "types": [
+      "Psíquico",
+      "Fada"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "filter",
+        "is_hidden": false
+      },
+      {
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 40
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 120
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "scyther",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+    "types": [
+      "Inseto",
+      "Voador"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 110
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 80
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 105
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "jynx",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+    "types": [
+      "Gelo",
+      "Psíquico"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "dry-skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 115
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 95
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "electabuzz",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+    "types": [
+      "Elétrico"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 83
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 57
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 105
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "magmar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "flame-body",
+        "is_hidden": false
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 57
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 93
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "pinsir",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+    "types": [
+      "Inseto"
+    ],
+    "habitat": "forest",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 125
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 100
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 85
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "tauros",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "grassland",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 75
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 110
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "magikarp",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 20
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 10
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 15
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 20
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 80
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "gyarados",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    "types": [
+      "Água",
+      "Voador"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 125
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 79
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 81
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "lapras",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+    "types": [
+      "Água",
+      "Gelo"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 130
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 60
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "ditto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "name": "imposter",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 48
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 48
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 48
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 48
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 48
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 48
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "eevee",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": false
+      },
+      {
+        "name": "anticipation",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 55
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 50
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 55
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "vaporeon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+    "types": [
+      "Água"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 130
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 110
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 65
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "jolteon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+    "types": [
+      "Elétrico"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 110
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 130
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "flareon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+    "types": [
+      "Fogo"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "guts",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 130
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 110
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 65
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "porygon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "urban",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "trace",
+        "is_hidden": false
+      },
+      {
+        "name": "download",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 40
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "omanyte",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+    "types": [
+      "Pedra",
+      "Água"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 35
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 40
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 100
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 35
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "omastar",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+    "types": [
+      "Pedra",
+      "Água"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 70
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 125
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 115
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 55
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "kabuto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+    "types": [
+      "Pedra",
+      "Água"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "battle-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 30
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 80
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 55
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 45
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 55
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "kabutops",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+    "types": [
+      "Pedra",
+      "Água"
+    ],
+    "habitat": "sea",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "battle-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 60
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 115
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 105
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 80
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "aerodactyl",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    "types": [
+      "Pedra",
+      "Voador"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 80
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 105
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 60
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 75
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 130
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "snorlax",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    "types": [
+      "Normal"
+    ],
+    "habitat": "mountain",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "immunity",
+        "is_hidden": false
+      },
+      {
+        "name": "thick-fat",
+        "is_hidden": false
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 160
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 110
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 65
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 110
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 30
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "articuno",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+    "types": [
+      "Gelo",
+      "Voador"
+    ],
+    "habitat": "rare",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "snow-cloak",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 85
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 100
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 95
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 125
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 85
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "zapdos",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+    "types": [
+      "Elétrico",
+      "Voador"
+    ],
+    "habitat": "rare",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "static",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 90
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 85
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 125
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 100
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "name": "moltres",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+    "types": [
+      "Fogo",
+      "Voador"
+    ],
+    "habitat": "rare",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 125
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 85
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 90
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "name": "dratini",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+    "types": [
+      "Dragão"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "marvel-scale",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 41
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 64
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 45
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 50
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 50
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "name": "dragonair",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+    "types": [
+      "Dragão"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "marvel-scale",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 61
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 84
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 65
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 70
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 70
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "dragonite",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "types": [
+      "Dragão",
+      "Voador"
+    ],
+    "habitat": "waters-edge",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "multiscale",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 91
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 134
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 95
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 80
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "mewtwo",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "types": [
+      "Psíquico"
+    ],
+    "habitat": "rare",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 106
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 110
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 90
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 154
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 90
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 130
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "mew",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+    "types": [
+      "Psíquico"
+    ],
+    "habitat": "rare",
+    "flavor_text": "Descrição não disponível.",
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false
+      }
+    ],
+    "stats": [
+      {
+        "name": "HP",
+        "base_stat": 100
+      },
+      {
+        "name": "Ataque",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa",
+        "base_stat": 100
+      },
+      {
+        "name": "Ataque Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Defesa Especial",
+        "base_stat": 100
+      },
+      {
+        "name": "Velocidade",
+        "base_stat": 100
+      }
+    ]
+  }
+]
