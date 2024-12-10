@@ -1,8 +1,7 @@
-
-*{
+/* Reset de margens e padding */
+* {
     margin: 0;
     padding: 0;
-    
 }
 
 html, body {
@@ -20,9 +19,8 @@ body {
     background-attachment: fixed; 
 }
 
-
+/* Header */
 #heading {
-    /* background: rgba(0, 0, 0, 0.7); */
     background: rgba(30, 144, 255, 1);
     height: 45px;
     display: flex;
@@ -31,85 +29,73 @@ body {
     padding: 0.5rem 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     font-family: "Press Start 2P", system-ui;
-
 }
 
 #heading h1, #heading h1 a {
     font-family: "Press Start 2P", system-ui;
-    color: #fff; /* Garante que o texto tenha contraste */
+    color: #fff;
     font-size: 1.5rem;
 }
 
+/* Estilo do Link de Cadastro */
+#link-cadastrar {
+    text-decoration: none;
+    color: #0070f3; /* Cor inicial do link */
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito de hover: mudança de cor e leve animação */
+#link-cadastrar:hover {
+    color: #ff6347; /* Cor ao passar o mouse (vermelho-tomate) */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+}
+
+/* Efeito de foco para acessibilidade */
+#link-cadastrar:focus {
+    outline: 2px solid #ff6347;
+}
+
+/* Menu Item */
 .menu-item a {
     height: 30px; 
     display: flex;
     align-items: center;
     color: #fff;
     text-decoration: none;
-    position: relative; /* Adicionado para permitir posicionamento absoluto no ::before */
+    position: relative;
     transition: border 0.3s ease;
 }
 
 .menu-item a::before { 
     content: '';
     position: absolute;
-    bottom: 0; /* A linha agora aparece embaixo */
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 2px; /* Altura da linha */
-    background-color: white; /* Cor da linha */
-    transform: scaleX(0); /* Linha invisível inicialmente */
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease;
 }
 
 .menu-item a:hover::before {
-    transform: scaleX(1); /* Linha se expande na interação */
+    transform: scaleX(1);
 }
 
-
-.bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.bar h1 {
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0 1rem;
-    color: #fff;
-    font-family: sans-serif;
-}
-
-.bar h1 a {
-    color: #fff;
-    text-decoration: none;
-    font-family: sans-serif;
-}
-
-.pokebola {
-    width: 2rem;
-    height: 2rem;
-    margin-left: 1rem;
-}
-
-
+/* Footer */
 footer {
-    margin-top: auto; /* Garante que o footer fique no fim */
-    background-color:  rgb(46, 71, 114);
-    background-color:  rgb(41, 58, 87);
+    margin-top: auto;
+    background-color: rgb(41, 58, 87);
     color: white;
-    padding: 0.4rem; /* Reduzido o espaçamento interno */
-    min-height: 10px; /* Define uma altura mínima menor */
+    padding: 0.4rem;
+    min-height: 10px;
     text-align: center;
     font-size: 1.1rem;
     font-family: "Fredoka", sans-serif;
     font-weight: 500;
-    font-size: 1.1rem;
-    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5); /* Sombra leve acima */
-    /* border-top: 2px solid rgba(255, 255, 255, 0.2);  */
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
 }
 
 footer a {
@@ -118,64 +104,59 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffcc00; /* A cor que você deseja quando passar o mouse (exemplo: amarelo) */
+    color: #ffcc00;
 }
 
-.red{
+.red {
     color: red;
 }
 
-/* Define o estilo geral do main */
+/* Main */
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
-    flex-grow: 1; /* Faz o main ocupar o espaço disponível */
-    /* min-height: 80%;  */
-    /* background: #f0f4f8; Cor de fundo clara para contraste */
+    flex-grow: 1;
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     font-family: "Fredoka", sans-serif;
-    
 }
 
-/* Define a caixa do formulário */
+/* Form Container */
 #form-container {
-    background: white; /* Cor de fundo da caixinha */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    padding: 15px ;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
     max-width: 520px;
     max-height: 730px;
     height: 100%;
-    width: 100%; 
-    text-align: center; /* Centraliza os elementos dentro da caixa */
+    width: 100%;
+    text-align: center;
 }
 
-#titulo{
+#titulo {
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 30px;
 }
 
-#tres-pokemons{
+#tres-pokemons {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    
 }
 
-#tres-pokemons img{
+#tres-pokemons img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     display: flex;
     background-size: contain;
-    /* width: 220px; */
     height: 300px;
     margin: 10px;
 }
 
-#submit{
+/* Botão de Submissão */
+#submit {
     width: 40%;
     height: 45px;
     margin-top: 20px;
@@ -184,14 +165,12 @@ main {
     margin-bottom: 5px;
 }
 
-/* Estilo dos labels e inputs */
+/* Labels e Inputs */
 label {
     display: block;
     font-size: 18px;
     margin: 10px 0 5px;
     text-align: left;
-
-    
 }
 
 input[type="text"],
@@ -203,18 +182,18 @@ input[type="password"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    box-sizing: border-box; /* Garante que padding não afete o tamanho */
+    box-sizing: border-box;
 }
 
 input:focus {
     outline: none;
-    border-color: #4CAF50; /* Destaca o campo ativo */
+    border-color: #4CAF50;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
 }
 
-/* Botão cadastrar */
+/* Botão Cadastrar */
 button[type="submit"] {
-    background-color: #007BFF; /* Cor do botão azul */
+    background-color: #007BFF;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -225,13 +204,12 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+    background-color: #0056b3;
 }
 
+/* Texto para cadastro */
 #possui-conta {
     margin-top: 10px;
-    /* color: #007BFF; */
-    color:  #555;
-    /* text-decoration: none; */
+    color: #555;
     font-size: 17px;
 }

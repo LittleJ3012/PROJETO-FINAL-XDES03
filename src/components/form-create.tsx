@@ -35,7 +35,7 @@ export default function CreateUserForm() {
     useEffect(() => {
         async function fetchAvatars() {
             try {
-                const response = await fetch('/api/avatars');
+                const response = await fetch('src/app/api/avatars');
                 if (!response.ok) {
                     throw new Error('Erro ao carregar os avatares');
                 }
@@ -88,7 +88,7 @@ export default function CreateUserForm() {
         }
 
         try {
-            const response = await fetch('/api/create-user', {
+            const response = await fetch('src/app/api/create-user', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
