@@ -35,7 +35,7 @@ export default function CreateUserForm() {
     useEffect(() => {
         async function fetchAvatars() {
             try {
-                const response = await fetch('src/app/api/avatars');
+                const response = await fetch('/api/avatars');
                 if (!response.ok) {
                     throw new Error('Erro ao carregar os avatares');
                 }
@@ -88,13 +88,14 @@ export default function CreateUserForm() {
         }
 
         try {
-            const response = await fetch('src/app/api/create-user', {
+            const response = await fetch('/api/create-user', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(createUserData),
             });
+            
 
             if (!response.ok) {
                 const errorData = await response.json();
@@ -113,10 +114,12 @@ export default function CreateUserForm() {
         <>
             <header id="heading">
                 <div>
-                    <img
+                    <Image
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/640px-Pokebola-pokeball-png-0.png"
                         alt="pokebola"
                         className="pokebola"
+                        width={50}
+                        height={50}
                     />
                 </div>
                 <div className="bar">

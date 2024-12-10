@@ -1,6 +1,4 @@
-import Link from "next/link";
-
-import '@/styles/CreatePokemon.css';
+import '@/styles/Create.css';
 
 
 import { redirect } from "next/navigation";
