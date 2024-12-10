@@ -13,10 +13,10 @@ html, body {
 
 body {
     background-image: url(https://images3.alphacoders.com/118/thumb-1920-1181595.jpg);
-    background-size: 100% auto; 
-    background-position: bottom center; 
+    background-size: 100% auto;
+    background-position: bottom center;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 /* Header */
@@ -38,27 +38,45 @@ body {
 }
 
 /* Estilo do Link de Cadastro */
-#link-cadastrar {
+#possui-conta {
     text-decoration: none;
     color: #0070f3; /* Cor inicial do link */
     font-weight: bold;
+    position: relative;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-/* Efeito de hover: mudança de cor e leve animação */
-#link-cadastrar:hover {
-    color: #ff6347; /* Cor ao passar o mouse (vermelho-tomate) */
-    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+/* Efeito de hover com sublinhado animado */
+#possui-conta::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #ff6347; /* Cor do sublinhado */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+#possui-conta:hover {
+    color: #ff6347; /* Cor ao passar o mouse */
+    transform: scale(1.05);
+}
+
+#possui-conta:hover::after {
+    transform: scaleX(1); /* Expande o sublinhado ao passar o mouse */
 }
 
 /* Efeito de foco para acessibilidade */
-#link-cadastrar:focus {
+#possui-conta:focus {
     outline: 2px solid #ff6347;
 }
 
 /* Menu Item */
 .menu-item a {
-    height: 30px; 
+    height: 30px;
     display: flex;
     align-items: center;
     color: #fff;
@@ -67,7 +85,7 @@ body {
     transition: border 0.3s ease;
 }
 
-.menu-item a::before { 
+.menu-item a::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -213,3 +231,4 @@ button[type="submit"]:hover {
     color: #555;
     font-size: 17px;
 }
+
