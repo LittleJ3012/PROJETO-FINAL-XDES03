@@ -8,23 +8,32 @@ import { createSessionToken, deleteToken, isSessionValid } from "@/utils/auth";
 
 const arquivo = "usuarios-db.json";
 
+// Definindo a interface para os usuários no banco de dados
+interface User {
+    id: string;
+    email: string;
+    password: string;
+    avatar: string;
+}
+
 export interface LoginCredentials {
     email: string;
     password: string;
 }
 
 // Função para criar um novo usuário
-export async function createUser({ email, password }: { email: string; password: string }) {
+export async function createUser({ email, password, avatar }: { email: string; password: string; avatar: string }) {
     const emailTrimmed = email.trim();
     const passwordCrypt = await bcrypt.hash(password, 10);
 
-    const novoUser = {
+    const novoUser: User = {
         id: crypto.randomUUID(),
         email: emailTrimmed,
         password: passwordCrypt,
+        avatar: avatar, // Adicionando o avatar ao novo usuário
     };
 
-    const usuariosBD = await ConexaoBD.retornaBD(arquivo);
+    const usuariosBD: User[] = await ConexaoBD.retornaBD(arquivo);
 
     for (const user of usuariosBD) {
         if (user.email === emailTrimmed) {
@@ -41,8 +50,7 @@ export async function login(data: LoginCredentials) {
     const email = data.email.trim();
     const password = data.password;
 
-    // Manipula BD
-    const usuariosBD = await ConexaoBD.retornaBD(arquivo);
+    const usuariosBD: User[] = await ConexaoBD.retornaBD(arquivo);
 
     const user = usuariosBD.find((user) => user.email === email);
 
@@ -56,7 +64,7 @@ export async function login(data: LoginCredentials) {
         await createSessionToken({ sub: user.id, email: user.email });
         redirect("/main/listar");
     } else {
-        await deleteToken(); // Garante que não há token residual
+        await deleteToken();
         return { error: "Usuário ou senha incorretos" };
     }
 }

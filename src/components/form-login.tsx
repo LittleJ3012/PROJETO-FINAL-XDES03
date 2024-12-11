@@ -49,25 +49,10 @@ export default function LoginForm() {
 
     return (
         <>
-            <header id="heading">
-                <div>
-                    <Image
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/640px-Pokebola-pokeball-png-0.png"
-                        alt="pokebola"
-                        className="pokebola"
-                        width={50}
-                        height={50}
-                    />
-                </div>
-                <div className="bar">
-                    <h1 className="h1">Pokédex</h1>
-                </div>
-            </header>
-
             <main>
                 <div id="form-container">
                     <h2 id="titulo">Logue com a sua conta</h2>
-                    <form action="/logar" method="post">
+                    <form action={loginClientAction}>
                         <div id="tres-pokemons">
                             <Image
                                 src="https://i.pinimg.com/236x/da/23/2e/da232e027d0e7f2d24bc68f27186c2da.jpg"
@@ -100,5 +85,7 @@ export default function LoginForm() {
         </>
     )
 }
+
+
 
 

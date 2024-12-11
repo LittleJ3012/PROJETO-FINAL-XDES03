@@ -1,0 +1,43 @@
+#heading h1, #heading h1 a {
+    font-family: "Press Start 2P", system-ui;
+    color: #fff; /* Garante que o texto tenha contraste */
+    font-size: 1.3rem;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bar h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0 1rem;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.bar h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#heading {
+    background: rgba(30, 144, 255, 1);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    font-family: "Press Start 2P", system-ui;
+}
+
+.pokebola {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
