@@ -1,4 +1,4 @@
-## Descriçaõ do Projeto
+## Descrição do Projeto
 O projeto Pokédex é uma aplicação web interativa que permite aos usuários cadastrar e gerenciar suas informações de maneira segura. A plataforma oferece uma interface intuitiva e visualmente atraente, onde os usuários podem explorar e escolher seus Pokémons favoritos da primeira geração. Ao selecionar até seis Pokémons, o usuário pode montar seu time e visualizar informações detalhadas sobre cada um deles, apresentadas por meio de cards informativos.
 
 ## Tecnologias Utilizadas
