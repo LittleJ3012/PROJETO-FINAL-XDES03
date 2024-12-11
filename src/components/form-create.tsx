@@ -1,121 +1,126 @@
-'use client';
+"use client";
 
+import Header from '@/components/header'; 
 import { z } from 'zod';
 import toast from 'react-hot-toast';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { redirect } from 'next/navigation';
-import { createUser } from '@/utils/credentials';
-import pokemonData from '@/db/pokemon_db.json'; 
+import { useRouter } from 'next/navigation'; // Importação do useRouter para redirecionar a página
+import { CadCredentials, createUser } from "@/utils/credentials";
+import pokemonData from '@/db/pokemon_db.json';
 import '@/styles/Create.css';
+import '@/styles/Header.css';
+import '@/app/page.css';
 
 // Função para selecionar um Pokémon aleatório
 const getRandomAvatar = (avatars: string[]) => {
-    return avatars[Math.floor(Math.random() * avatars.length)];
+  return avatars[Math.floor(Math.random() * avatars.length)];
 };
 
 export default function CreateUserForm() {
-    const [avatar, setAvatar] = useState<string>('');
-    const [pokemonAvatars, setPokemonAvatars] = useState<string[]>([]);
+  const [avatar, setAvatar] = useState<string>('');
+  const [pokemonAvatars, setPokemonAvatars] = useState<string[]>([]);
+  const router = useRouter(); // Instancia o router
 
-    // Carregar avatares dos Pokémon ao montar o componente
-    useEffect(() => {
-        const avatars = pokemonData.map((pokemon) => pokemon.image);
-        setPokemonAvatars(avatars);
-        setAvatar(getRandomAvatar(avatars));
-    }, []);
+  // Carregar avatares dos Pokémon ao montar o componente
+  useEffect(() => {
+    const avatars = pokemonData.map((pokemon) => pokemon.image);
+    setPokemonAvatars(avatars);
+    setAvatar(getRandomAvatar(avatars));
+  }, []);
 
-    // Lógica para trocar avatar
-    const trocarAvatar = () => {
-        setAvatar(getRandomAvatar(pokemonAvatars));
+  // Lógica para trocar avatar
+  const trocarAvatar = () => {
+    setAvatar(getRandomAvatar(pokemonAvatars));
+  };
+
+  // Schema de validação com Zod
+  const CreateUserSchema = z.object({
+    usuario: z.string().trim().min(1, { message: 'Usuário não pode ser vazio' }),
+    email: z.string().trim().email('Email com formato inválido'),
+    senha: z.string().trim().min(4, { message: 'Senha deve ter no mínimo 4 caracteres' }),
+    confirmaSenha: z.string().trim().min(1, { message: 'Confirmação de senha é obrigatória' }),
+  }).refine((data) => data.senha === data.confirmaSenha, {
+    message: 'As senhas não conferem',
+    path: ['confirmaSenha'],
+  });
+
+  const createUserClient = async (formData: FormData) => {
+    const createUserData = {
+      usuario: formData.get('usuario') as string,
+      email: formData.get('email') as string,
+      senha: formData.get('senha') as string,
+      confirmaSenha: formData.get('confirma-senha') as string,
+      avatar: avatar,
     };
 
-    // Schema de validação com Zod
-    const CreateUserSchema = z
-        .object({
-            usuario: z.string().trim().min(1, { message: 'Usuário não pode ser vazio' }),
-            email: z.string().trim().email('Email com formato inválido'),
-            senha: z.string().trim().min(4, { message: 'Senha deve ter no mínimo 4 caracteres' }),
-            confirmaSenha: z.string().trim().min(1, { message: 'Confirmação de senha é obrigatória' }),
-        })
-        .refine((data) => data.senha === data.confirmaSenha, {
-            message: 'As senhas não conferem',
-            path: ['confirmaSenha'],
-        });
+    const result = CreateUserSchema.safeParse(createUserData);
 
-    // Manipular envio do formulário
-    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
+    if (!result.success) {
+      let errorMsg = "";
 
-        const formData = new FormData(event.currentTarget);
+      result.error.issues.forEach((issue) => {
+        errorMsg = errorMsg + issue.message + '. ';
+      });
 
-        const createUserData = {
-            usuario: formData.get('usuario') as string,
-            email: formData.get('email') as string,
-            senha: formData.get('senha') as string,
-            confirmaSenha: formData.get('confirma-senha') as string,
-            avatar: avatar,
-        };
+      toast.error(errorMsg);
+      return;
+    }
 
-        const result = CreateUserSchema.safeParse(createUserData);
+    // Chama o Server Action
+    const retorno = await createUser(createUserData as CadCredentials);
+    if (retorno) {
+      toast.error(retorno.error);
+      return;
+    }
 
-        if (!result.success) {
-            const errorMsg = result.error.issues.map((issue) => issue.message).join(' ');
-            toast.error(errorMsg);
-            return;
-        }
+    toast.success('Usuário cadastrado com sucesso!');
+    router.push('/user/login'); // Redireciona para a página de login
+  };
 
-        try {
-            await createUser({ email: createUserData.email, password: createUserData.senha, avatar });
-            toast.success('Usuário cadastrado com sucesso!');
-            redirect('/user/login');
-        } catch (error) {
-            toast.error('Erro ao cadastrar usuário.');
-            console.error('Erro:', error);
-        }
-    };
+  return (
+    <>
+      <Header /> {/* Adiciona o Header aqui */}
+      <main>
+        <div id="form-container">
+          <h2 id="titulo">Crie uma nova conta</h2>
+          <form action={createUserClient}>
+            <div id="avatar-container">
+              <Image id="avatar" src={avatar} alt="Avatar do Usuário" width={100} height={100} />
+              <button type="button" id="trocar-avatar" onClick={trocarAvatar}>
+                Trocar Avatar
+              </button>
+            </div>
 
-    return (
-        <>
-            <main>
-                <div id="form-container">
-                    <h2 id="titulo">Crie uma nova conta</h2>
-                    <form onSubmit={handleSubmit}>
-                        <div id="avatar-container">
-                            <Image id="avatar" src={avatar} alt="Avatar do Usuário" width={100} height={100} />
-                            <button type="button" id="trocar-avatar" onClick={trocarAvatar}>
-                                Trocar Avatar
-                            </button>
-                        </div>
+            <label htmlFor="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required />
 
-                        <label htmlFor="usuario">Usuário:</label>
-                        <input type="text" id="usuario" name="usuario" required />
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" required />
 
-                        <label htmlFor="email">Email:</label>
-                        <input type="email" id="email" name="email" required />
+            <label htmlFor="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required />
 
-                        <label htmlFor="senha">Senha:</label>
-                        <input type="password" id="senha" name="senha" required />
+            <label htmlFor="confirma-senha">Confirme a senha:</label>
+            <input type="password" id="confirma-senha" name="confirma-senha" required />
 
-                        <label htmlFor="confirma-senha">Confirme a senha:</label>
-                        <input type="password" id="confirma-senha" name="confirma-senha" required />
+            <button type="submit" id="submit">
+              Cadastrar
+            </button>
+          </form>
+          <Link id="link-logar" href="/user/login">
+            <p id="possui-conta">Já possui conta?</p>
+          </Link>
+        </div>
+      </main>
 
-                        <button type="submit" id="submit">
-                            Cadastrar
-                        </button> 
-                    </form>
-                    <Link id="link-logar" href="/user/login">
-                        <p id="possui-conta">Já possui conta?</p>
-                    </Link>
-                </div>
-            </main>
-            <footer>
-                <p>
-                    Feito com <span className="red">&#10084;</span> por{' '}
-                    <Link href="https://github.com/seu-usuario">GitHub</Link>
-                </p>
-            </footer>
-        </>
-    );
+      <footer>
+        <p>
+          Feito com <span className="red">&#10084;</span> por{' '}
+          <Link href="https://github.com/seu-usuario">GitHub</Link>
+        </p>
+      </footer>
+    </>
+  );
 }
