@@ -1,3 +1,20 @@
+## Descriçaõ do Projeto
+O projeto Pokédex é uma aplicação web interativa que permite aos usuários cadastrar e gerenciar suas informações de maneira segura. A plataforma oferece uma interface intuitiva e visualmente atraente, onde os usuários podem explorar e escolher seus Pokémons favoritos da primeira geração. Ao selecionar até seis Pokémons, o usuário pode montar seu time e visualizar informações detalhadas sobre cada um deles, apresentadas por meio de cards informativos.
+
+## Tecnologias Utilizadas
+- **Frontend**: React, JavaScript, HTML, CSS
+- **Backend**: Node.js, Express
+- **Banco de Dados**: API Pokémon no formato JSON (https://pokeapi.co/)
+- **Autenticação**: JWT (JSON Web Tokens)
+
+## Problema
+O projeto busca resolver a implementação de operações CRUD (Create, Read, Update, Delete) visto em sala de aula. Ele permite o cadastro de usuários, a remoção de Pokémons escolhidos pelo usuário durante a montagem de seu time, e a atualização dinâmica do time de Pokémons conforme o usuário altera suas escolhas. 
+
+## Por que é um Problema Importante
+Esse projeto é importante devido o aprendizado que proporciona. Ele permite aplicar o conhecimento adquirido na disciplina de Web - XDES03, consolidando conceitos de desenvolvimento web e o uso de ferramentas modernas. Além do aprendizado adquirido em operações CRUD, em que sua implementação é fundamental para desenvolver habilidades essenciais na criação de aplicações dinâmicas e interativas.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
