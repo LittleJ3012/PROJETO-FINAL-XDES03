@@ -7,44 +7,56 @@ import Image from "next/image";
 import { login } from "@/utils/credentials";
 import { z } from "zod"; // Import do zod para apoio nas validações do front
 import toast from 'react-hot-toast'; // Import do react-hot-toast
+import { useRouter } from 'next/navigation'; // Importação do useRouter para redirecionar a página
 import { LoginCredentials } from '@/utils/credentials';
 import '@/app/page.css';
 import '@/styles/Header.css';
 
 // Criação do schema para validação dos campos de login
 const LoginSchema = z.object({
-  email: z.string().trim().email('Email com formato incorreto'),
+  usuario: z.string().trim().min(1, { message: 'Usuário não pode ser vazio' }),
   senha: z.string({ message: 'Insira uma senha' }).trim().min(1, { message: 'Senha não pode ser vazia' })
 });
 
 export default function LoginForm() {
+  const router = useRouter(); // Instancia o router
+
   const loginClientAction = async (formData: FormData) => {
+    console.log("Iniciando o processo de login...");
+  
     const loginData: LoginCredentials = {
-      email: formData.get('email') as string,
+      usuario: formData.get('usuario') as string,
       senha: formData.get('senha') as string
     };
-
+  
     const result = LoginSchema.safeParse(loginData);
-
+  
     if (!result.success) {
       let errorMsg = "";
-
+  
       result.error.issues.forEach((issue) => {
-        errorMsg = errorMsg + issue.message + '. ';
+        errorMsg += issue.message + '. ';
       });
-
+  
+      console.error("Erro de validação:", errorMsg);
       toast.error(errorMsg);
       return;
     }
-
-    // Chama o Server Action
+  
+    console.log("Chamando a função de login no servidor...");
     const retorno = await login(loginData);
-
-    if (retorno) {
+  
+    if (retorno?.error) {
+      console.error("Erro de login:", retorno.error);
       toast.error(retorno.error);
       return;
     }
+  
+    console.log("Login bem-sucedido! Redirecionando...");
+    toast.success('Usuário logado com sucesso!');
+    router.push('/main/listar'); // Redireciona manualmente no cliente
   };
+  
 
   return (
     <>

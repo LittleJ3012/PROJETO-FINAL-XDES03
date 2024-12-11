@@ -4,7 +4,7 @@ import PokemonFav, { PokemonFavProps } from "@/components/pokemon";
 import '@/styles/ListPokemon.css';
 import ConexaoBD from "@/utils/conexao-bd";
 
-const arquivo = 'pokemon-db.json';
+const arquivo = 'pokemon_db.json';
 
 export default async function Listar() {
     const pokemonsDb = await ConexaoBD.retornaBD(arquivo);
