@@ -60,7 +60,7 @@ export default function LoginForm() {
 
   return (
     <>
-      <Header /> {/* Adiciona o Header aqui */}
+      <Header />
       <main>
         <div id="form-container">
           <h2 id="titulo">Logue com a sua conta</h2>

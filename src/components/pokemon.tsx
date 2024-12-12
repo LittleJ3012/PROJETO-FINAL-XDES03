@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import {useState } from 'react';
 import pokemonData from '@/db/pokemon_db.json';
 import '@/styles/Pokemon.css';
 
@@ -128,7 +128,6 @@ export default function PokemonPage() {
 
                         return (
                             <div className="pokemon-card" key={poke.id}>
-                                {/* Mantemos o botão e a classe delete-btn, mas o onclick original agora é controlado por React */}
                                 <button className="delete-btn" onClick={() => removerPokemonDoTime(poke.id)}>X</button>
                                 <img
                                     src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${poke.id}.png`}
@@ -143,6 +142,11 @@ export default function PokemonPage() {
                             </div>
                         );
                     })}
+                </div>
+                <div className="button-container" style={{ marginTop: '20px' }}>
+                   <button className="select-button" onClick={() => setMostrarEquipe(false)}>
+                      Voltar ao Menu Principal
+                   </button>
                 </div>
             </div>
         </section>
