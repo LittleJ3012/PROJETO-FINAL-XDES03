@@ -4,7 +4,7 @@ O projeto Pokédex é uma aplicação web interativa que permite aos usuários c
 ## Tecnologias Utilizadas
 - **Frontend**: React, JavaScript, HTML, CSS
 - **Backend**: Next.js
-- **Banco de Dados**: API Pokémon no formato JSON (https://pokeapi.co/)
+- **Banco de Dados**: Arquivo JSON como base de dados, com informações da API Pokémon (https://pokeapi.co/)
 - **Autenticação**: Geração de Token
 
 ## Problema
