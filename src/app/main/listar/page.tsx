@@ -1,7 +1,6 @@
 import Link from "next/link";
 import PokemonFav, { PokemonFavProps } from "@/components/pokemon";
-
-import '@/styles/ListPokemon.css';
+import '@/styles/Pokemon.css';
 import ConexaoBD from "@/utils/conexao-bd";
 
 const arquivo = 'pokemon_db.json';

@@ -1,12 +1,10 @@
 import '@/styles/Create.css';
-
-
 import { redirect } from "next/navigation";
-
 import crypto from 'crypto';
 import ConexaoBD from "@/utils/conexao-bd";
+import '@/styles/Pokemon.css';
 
-const arquivo = 'pokemon-db.json';
+const arquivo = 'pokemon_db.json';
 
 //Marcar o componente como async para "server component"
 export default async function CreatePokemon(){
@@ -15,7 +13,7 @@ export default async function CreatePokemon(){
     const addPokemon = async (formData: FormData) => {
         "use server";
 
-        const novoPokemon =
+        const novoPokemon = 
             {
                 id: crypto.randomUUID(),
                 nome : formData.get("nome"),

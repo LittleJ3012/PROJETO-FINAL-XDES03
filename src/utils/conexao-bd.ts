@@ -4,20 +4,17 @@
 import {promises as fs} from 'fs';
 import path from "path";
 
-async function retornaBD(arquivo: string): Promise<Array<any>> {
-    const dbPath = path.join(process.cwd(), 'src', 'db', arquivo);
-    console.log("Caminho do banco de dados:", dbPath);
-  
-    try {
+async function retornaBD<T>(arquivo: string): Promise<T[]> {
+  const dbPath = path.join(process.cwd(), 'src', 'db', arquivo);
+
+  try {
       const dados = await fs.readFile(dbPath, 'utf-8');
-      console.log("Conteúdo do banco de dados:", dados);
-      return JSON.parse(dados);
-    } catch (error) {
+      return JSON.parse(dados) as T[];
+  } catch (error) {
       console.error("Erro ao ler o banco de dados:", error);
       throw error;
-    }
   }
-  
+}
 
 async function armazenaBD(arquivo: string, dados: any)
 {

@@ -5,8 +5,9 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import PokemonFav, { PokemonFavProps } from '@/components/pokemon';
 import { notFound, redirect } from 'next/navigation';
+import '@/styles/Pokemon.css';
 
-const dbPath = path.join(process.cwd(), 'src', 'db', 'pokemon-db.json');
+const dbPath = path.join(process.cwd(), 'src', 'db', 'pokemon_db.json');
 
 interface EditPokemonProps {
     params: {

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-
 import '@/styles/Pokemon.css';
 import ConexaoBD from "@/utils/conexao-bd";
 
@@ -12,7 +11,7 @@ export interface PokemonFavProps {
     descricao: string;
 }
 
-const arquivo = 'pokemon-db.json';
+const arquivo = 'pokemon_db.json';
 
 export default async function PokemonFav(props: PokemonFavProps) {
     const deletePokemon = async () => {
