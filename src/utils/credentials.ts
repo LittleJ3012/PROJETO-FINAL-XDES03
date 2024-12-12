@@ -47,7 +47,7 @@ export async function createUser(data: CadCredentials) {
         avatar: avatar
     }
 
-    const usuariosBD = await ConexaoBD.retornaBD(arquivo);
+    const usuariosBD = await ConexaoBD.retornaBD<User>(arquivo);
     console.log("Usuários atuais:", usuariosBD);
 
     for (const user of usuariosBD) {

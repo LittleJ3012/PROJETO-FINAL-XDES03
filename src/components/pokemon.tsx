@@ -1,57 +1,181 @@
-import Image from "next/image";
-import Link from "next/link";
-import { redirect } from "next/navigation";
-import '@/styles/Pokemon.css';
-import ConexaoBD from "@/utils/conexao-bd";
+"use client";
 
-export interface PokemonFavProps {
-    id: string;
-    nome: string;
-    img: string;
-    descricao: string;
+import { useState } from 'react';
+import pokemonData from '@/db/pokemon_db.json';
+import '@/styles/Pokemon.css';
+
+interface Pokemon {
+  id: number;
+  name: string;
+  image: string;
+  types: string[];
+  habitat: string;
+  flavor_text: string;
+  abilities: {
+    name: string;
+    is_hidden: boolean;
+  }[];
+  stats: {
+    name: string;
+    base_stat: number;
+  }[];
 }
 
-const arquivo = 'pokemon_db.json';
+export default function PokemonPage() {
+    const [mostrarEquipe, setMostrarEquipe] = useState(false);
+    const [pokemonSelecionados, setPokemonSelecionados] = useState<number[]>([]);
+    const [mouseOverBox, setMouseOverBox] = useState<number | null>(null);
+    let tooltipTimeout: ReturnType<typeof setTimeout> | null = null;
 
-export default async function PokemonFav(props: PokemonFavProps) {
-    const deletePokemon = async () => {
-        'use server';
+    const totalPokemons = 151;
 
-        const id = props.id;
-
-        const acharIndex = (p: PokemonFavProps) => p.id === id;
-
-        // Especifica explicitamente o tipo de retorno como PokemonFavProps[]
-        const pokemonDB = await ConexaoBD.retornaBD<PokemonFavProps>(arquivo);
-
-        const index = pokemonDB.findIndex(acharIndex);
-
-        if (index !== -1) {
-            pokemonDB.splice(index, 1);
-            await ConexaoBD.armazenaBD(arquivo, pokemonDB);
-        }
-
-        redirect('/main/listar');
+    const getPokemonFromDB = (id: number): Pokemon | undefined => {
+        return (pokemonData as Pokemon[]).find(p => p.id === id);
     };
 
+    const getPokemonName = (id: number): string => {
+        const p = getPokemonFromDB(id);
+        return p ? p.name.charAt(0).toUpperCase() + p.name.slice(1) : `Pokémon ${id}`;
+    };
+
+    const getStat = (pokemon: Pokemon, statName: string): number | string => {
+        const statObj = pokemon.stats.find(s => s.name === statName);
+        return statObj ? statObj.base_stat : 'N/A';
+    };
+
+    const toggleSelectPokemon = (id: number) => {
+        setPokemonSelecionados(prev => {
+            if (prev.includes(id)) {
+                return prev.filter(pid => pid !== id);
+            } else {
+                if (prev.length < 6) {
+                    const novo = [...prev, id];
+                    // Se chegar em 6, mostra a equipe
+                    if (novo.length === 6) {
+                        setMostrarEquipe(true);
+                    }
+                    return novo;
+                } else {
+                    return prev;
+                }
+            }
+        });
+    };
+
+    const removerPokemonDoTime = (id: number) => {
+        setPokemonSelecionados(prev => prev.filter(pid => pid !== id));
+    };
+
+    const pokemonsEscolhidos = (pokemonData as Pokemon[]).filter(p => pokemonSelecionados.includes(p.id));
+
+    // Página 1: Grade de Pokémons
+    const paginaSelecao = (
+        <section id="pokemon-selection" className={`page ${!mostrarEquipe ? 'active' : ''}`}>
+            <h2>Monte a sua equipe de Pokémons!</h2>
+            <div className="separator"></div>
+            <div className="pokemon-grid">
+                {Array.from({ length: totalPokemons }, (_, i) => i + 1).map(num => {
+                    const isSelected = pokemonSelecionados.includes(num);
+                    return (
+                        <div
+                            key={num}
+                            className={`pokemon-box ${isSelected ? 'selected' : ''}`}
+                            onMouseEnter={() => {
+                                tooltipTimeout = setTimeout(() => {
+                                    setMouseOverBox(num);
+                                }, 1000);
+                            }}
+                            onMouseLeave={() => {
+                                if (tooltipTimeout) clearTimeout(tooltipTimeout);
+                                setMouseOverBox(null);
+                            }}
+                            onClick={() => {
+                                setMouseOverBox(null);
+                                toggleSelectPokemon(num);
+                            }}
+                        >
+                            <img
+                                src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${num}.png`}
+                                alt={`Pokémon ${num}`}
+                            />
+                            <div className="tooltip" style={{ visibility: mouseOverBox === num ? 'visible' : 'hidden' }}>
+                                {getPokemonName(num)}
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+            <div className="button-container">
+                <a href="#full-page">
+                    <button className="select-button" onClick={() => setMostrarEquipe(true)}>Selecionar</button>
+                </a>
+            </div>
+        </section>
+    );
+
+    // Página 2: Equipe Escolhida
+    const paginaEquipe = (
+        <section id="full-page" className="full-page">
+            <div className="full-page-content">
+                <h2>Sua Equipe de Pokémons</h2>
+                <div className="separator-dois"></div>
+                <div className="chosen-pokemon-grid">
+                    {pokemonsEscolhidos.map(poke => {
+                        const tipo = poke.types.join(', ');
+                        const ataque = getStat(poke, 'Ataque');
+                        const defesa = getStat(poke, 'Defesa');
+                        const poderEspecial = getStat(poke, 'Ataque Especial');
+
+                        return (
+                            <div className="pokemon-card" key={poke.id}>
+                                {/* Mantemos o botão e a classe delete-btn, mas o onclick original agora é controlado por React */}
+                                <button className="delete-btn" onClick={() => removerPokemonDoTime(poke.id)}>X</button>
+                                <img
+                                    src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${poke.id}.png`}
+                                    alt={poke.name}
+                                    className="pokemon"
+                                />
+                                <h3>{poke.name.charAt(0).toUpperCase() + poke.name.slice(1)}</h3>
+                                <p><strong>Tipo:</strong> {tipo}</p>
+                                <p><strong>Ataque:</strong> {ataque}</p>
+                                <p><strong>Defesa:</strong> {defesa}</p>
+                                <p><strong>Poder Especial:</strong> {poderEspecial}</p>
+                            </div>
+                        );
+                    })}
+                </div>
+            </div>
+        </section>
+    );
+
     return (
-        <div className="pokemon-container-card">
-            <h2>{props.nome}</h2>
-            <Image
-                src={props.img}
-                alt={`Imagem de ${props.nome}`}
-                width={200}
-                height={200}
-            />
-            <p>{props.descricao}</p>
-            <section className="pokemon-edit-buttons-container">
-                <Link href={`/main/edit/${props.id}`} className="edit-pokemon">
-                    Editar
-                </Link>
-                <form action={deletePokemon}>
-                    <button type="submit">Remover</button>
-                </form>
-            </section>
-        </div>
+        <>
+            <header id="heading">
+                <div>
+                    <img 
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/640px-Pokebola-pokeball-png-0.png"
+                        alt="pokebola"
+                        className="pokebola"
+                    />
+                </div>
+                <div className="bar">
+                    <h1 className="h1">Pokédex</h1>
+                    <div className="menu-item">
+                        <img 
+                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+                            alt="Avatar do Usuário"
+                            className="user-avatar"
+                        />
+                        <a href="#full-page">Usuário</a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                {!mostrarEquipe ? paginaSelecao : paginaEquipe}
+            </main>
+            <footer>
+                <p>Feito com <span className="red">&#10084; </span>por <a href="#">GitHub</a></p>
+            </footer>
+        </>
     );
 }

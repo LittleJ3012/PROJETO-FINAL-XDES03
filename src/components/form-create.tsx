@@ -25,7 +25,8 @@ export default function CreateUserForm() {
 
   // Carregar avatares dos Pokémon ao montar o componente
   useEffect(() => {
-    const avatars = pokemonData.map((pokemon) => pokemon.image);
+    const avatars = pokemonData.map((pokemon) => pokemon.image); //Aqui, ele pega a propriedade image 
+    //cada pokemón do banco de dados
     setPokemonAvatars(avatars);
     setAvatar(getRandomAvatar(avatars));
   }, []);

@@ -264,3 +264,70 @@ h2 {
     background-color: #007fbb;
     transform: scale(1.1);
 }
+
+
+.separator-dois {
+    border-bottom: 2px solid white;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes para a segunda página (equipe escolhida) */
+.chosen-pokemon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espaço horizontal e vertical entre os cards */
+    margin-top: 20px;
+}
+
+.pokemon-card {
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Fredoka", sans-serif;
+    position: relative; /* necessário para posicionar o botão X */
+}
+
+/* Botão "X" no canto superior direito do card */
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #FF3333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.pokemon-card h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: "Fredoka", sans-serif;
+}
+
+.pokemon-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: "Fredoka", sans-serif;
+}
+
+.pokemon-card img.pokemon {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto; 
+}
+

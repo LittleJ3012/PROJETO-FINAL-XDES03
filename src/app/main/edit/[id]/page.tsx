@@ -1,13 +1,11 @@
 import '@/styles/Create.css';
-
-// Para ler arquivos com Next.js
-import { promises as fs } from 'fs';
-import path from 'path';
-import PokemonFav, { PokemonFavProps } from '@/components/pokemon';
-import { notFound, redirect } from 'next/navigation';
 import '@/styles/Pokemon.css';
 
-const dbPath = path.join(process.cwd(), 'src', 'db', 'pokemon_db.json');
+import { promises as fs } from 'fs';
+import path from 'path';
+import {notFound, redirect } from 'next/navigation';
+import Image from 'next/image';
+import ConexaoBD from '@/utils/conexao-bd';
 
 interface EditPokemonProps {
     params: {
@@ -15,71 +13,133 @@ interface EditPokemonProps {
     };
 }
 
-export default async function Edit(props: EditPokemonProps) {
-    const file = await fs.readFile(`${dbPath}`, 'utf8');
-    const data = JSON.parse(file);
+interface Pokemon {
+    id: number;
+    name: string;
+    image: string;
+    types: string[];
+    habitat: string;
+    flavor_text: string;
+    abilities: {
+        name: string;
+        is_hidden: boolean;
+    }[];
+    stats: {
+        name: string;
+        base_stat: number;
+    }[];
+}
 
-    const id = props.params.id;
+const dbPath = path.join(process.cwd(), 'src', 'db', 'pokemon_db.json');
 
-    const pokemon = data.find((p: PokemonFavProps) => p.id === id);
+function getStat(pokemon: Pokemon, statName: string): number | string {
+    const statObj = pokemon.stats.find(s => s.name === statName);
+    return statObj ? statObj.base_stat : 'N/A';
+}
+
+export default async function Edit({ params }: EditPokemonProps) {
+    const idNumber = parseInt(params.id, 10);
+    const data = await ConexaoBD.retornaBD<Pokemon>('pokemon_db.json');
+
+    const pokemon = data.find((p) => p.id === idNumber);
+
+    if(!pokemon){
+        return notFound;
+    }
 
     const updatePokemon = async (formData: FormData) => {
         'use server';
 
-        const updatedPokemon = {
-            id,
-            nome: formData.get('nome'),
-            descricao: formData.get('descricao'),
-            img: formData.get('img'),
-        };
+        const newName = formData.get('name')?.toString().trim() || pokemon.name;
+        const newImage = formData.get('image')?.toString().trim() || pokemon.image;
 
-        const acharIndex = (p: PokemonFavProps) => p.id === id;
-
-        const index = data.findIndex(acharIndex);
-
-        data.splice(index, 1, updatedPokemon);
-        console.log(data);
-        await fs.writeFile(dbPath, JSON.stringify(data, null, 2));
+        const index = data.findIndex((p) => p.id === idNumber);
+        if (index !== -1) {
+            const updatedPokemon = {
+                ...pokemon,
+                name: newName,
+                image: newImage
+            };
+            await fs.writeFile(dbPath, JSON.stringify([...data.slice(0, index), updatedPokemon, ...data.slice(index+1)], null, 2));
+        }
 
         redirect('/main/listar');
     };
 
-    if (!pokemon) return notFound();
+    const tipo = pokemon.types.join(', ');
+    const ataque = getStat(pokemon, 'Ataque');
+    const defesa = getStat(pokemon, 'Defesa');
+    const poderEspecial = getStat(pokemon, 'Ataque Especial');
 
     return (
-        <div className='create-pokemon-container'>
-            <h2>Editar Pokémon {pokemon.nome}</h2>
-            <PokemonFav id={pokemon.id} nome={pokemon.nome} img={pokemon.img} descricao={pokemon.descricao} />
-            <form action={updatePokemon} className='create-pokemon-form'>
-                <section className='pokemon-input'>
-                    <input
-                        type='text'
-                        id='nome'
-                        name='nome'
-                        placeholder='Nome do Pokémon'
-                        defaultValue={pokemon.nome}
+        <>
+            <header id="heading">
+                <div>
+                    <Image
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/640px-Pokebola-pokeball-png-0.png"
+                        alt="pokebola"
+                        className="pokebola"
+                        width={32}
+                        height={32}
                     />
-                </section>
-                <section className='pokemon-input'>
-                    <input
-                        type='text'
-                        id='descricao'
-                        name='descricao'
-                        placeholder='Descrição do Pokémon'
-                        defaultValue={pokemon.descricao}
-                    />
-                </section>
-                <section className='pokemon-input'>
-                    <input
-                        type='text'
-                        id='img'
-                        name='img'
-                        placeholder='Imagem do Pokémon'
-                        defaultValue={pokemon.img}
-                    />
-                </section>
-                <button>Atualizar Pokémon</button>
-            </form>
-        </div>
+                </div>
+                <div className="bar">
+                    <h1 className="h1">Pokédex</h1>
+                    <div className="menu-item">
+                        <Image
+                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+                            alt="Avatar do Usuário"
+                            className="user-avatar"
+                            width={35}
+                            height={35}
+                        />
+                        <a href="/main/listar">Usuário</a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div className='create-pokemon-container'>
+                    <h2>Editar Pokémon {pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h2>
+                    <div className="pokemon-card" style={{ margin: '20px auto' }}>
+                        <Image
+                            src={pokemon.image}
+                            alt={pokemon.name}
+                            width={100}
+                            height={100}
+                            className="pokemon"
+                        />
+                        <h3>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h3>
+                        <p><strong>Tipo:</strong> {tipo}</p>
+                        <p><strong>Ataque:</strong> {ataque}</p>
+                        <p><strong>Defesa:</strong> {defesa}</p>
+                        <p><strong>Poder Especial:</strong> {poderEspecial}</p>
+                    </div>
+                    <form action={updatePokemon} className='create-pokemon-form'>
+                        <section className='pokemon-input'>
+                            <input
+                                type='text'
+                                id='name'
+                                name='name'
+                                placeholder='Nome do Pokémon'
+                                defaultValue={pokemon.name}
+                            />
+                        </section>
+                        <section className='pokemon-input'>
+                            <input
+                                type='text'
+                                id='image'
+                                name='image'
+                                placeholder='URL da Imagem do Pokémon'
+                                defaultValue={pokemon.image}
+                            />
+                        </section>
+                        <button>Atualizar Pokémon</button>
+                    </form>
+                </div>
+            </main>
+            <footer>
+                <p>Feito com <span className="red">&#10084;</span> por <a href="#">GitHub</a></p>
+            </footer>
+        </>
     );
 }
