@@ -2,6 +2,7 @@
 
 import {useState } from 'react';
 import pokemonData from '@/db/pokemon_db.json';
+import usuariosData from '@/db/usuarios-db.json'; 
 import '@/styles/Pokemon.css';
 
 interface Pokemon {
@@ -26,6 +27,9 @@ export default function PokemonPage() {
     const [pokemonSelecionados, setPokemonSelecionados] = useState<number[]>([]);
     const [mouseOverBox, setMouseOverBox] = useState<number | null>(null);
     let tooltipTimeout: ReturnType<typeof setTimeout> | null = null;
+    const ultimoUsuario = usuariosData[usuariosData.length - 1]; // Pega o último usuário cadastrado
+    const nomeUsuario = ultimoUsuario?.usuario || 'Usuário'; // Nome do usuário ou 'Usuário' por padrão
+    const avatarUsuario = ultimoUsuario?.avatar || 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png'; // Avatar padrão se não houver avatar definido
 
     const totalPokemons = 151;
 
@@ -166,11 +170,11 @@ export default function PokemonPage() {
                     <h1 className="h1">Pokédex</h1>
                     <div className="menu-item">
                         <img 
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+                            src={avatarUsuario}
                             alt="Avatar do Usuário"
                             className="user-avatar"
                         />
-                        <a href="#full-page">Usuário</a>
+                        <a href="#full-page">{nomeUsuario}</a>
                     </div>
                 </div>
             </header>
