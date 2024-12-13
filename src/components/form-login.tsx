@@ -15,8 +15,12 @@ import '@/styles/Header.css';
 // Criação do schema para validação dos campos de login
 const LoginSchema = z.object({
   usuario: z.string().trim().min(1, { message: 'Usuário não pode ser vazio' }),
-  senha: z.string({ message: 'Insira uma senha' }).trim().min(1, { message: 'Senha não pode ser vazia' })
+  senha: z
+    .string({ message: 'Insira uma senha' })
+    .trim()
+    .min(4, { message: 'Senha deve ter no mínimo 4 caracteres' }),
 });
+
 
 export default function LoginForm() {
   const router = useRouter(); // Instancia o router
@@ -99,7 +103,4 @@ export default function LoginForm() {
     </>
   );
 }
-
-
-
 

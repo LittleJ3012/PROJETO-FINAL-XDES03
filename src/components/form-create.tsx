@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation'; // Importação do useRouter para redirecionar a página
+import { useRouter } from 'next/navigation'; 
 import { CadCredentials, createUser } from "@/utils/credentials";
 import pokemonData from '@/db/pokemon_db.json';
 import '@/styles/Create.css';
@@ -37,15 +37,19 @@ export default function CreateUserForm() {
   };
 
   // Schema de validação com Zod
-  const CreateUserSchema = z.object({
+  const CreateUserSchema = z
+  .object({
     usuario: z.string().trim().min(1, { message: 'Usuário não pode ser vazio' }),
     email: z.string().trim().email('Email com formato inválido'),
     senha: z.string().trim().min(4, { message: 'Senha deve ter no mínimo 4 caracteres' }),
-    confirmaSenha: z.string().trim().min(1, { message: 'Confirmação de senha é obrigatória' }),
-  }).refine((data) => data.senha === data.confirmaSenha, {
+    confirmaSenha: z.string().trim().min(4, { message: 'Confirmação de senha deve ter no mínimo 4 caracteres' }),
+  })
+  .refine((data) => data.senha === data.confirmaSenha, {
     message: 'As senhas não conferem',
     path: ['confirmaSenha'],
   });
+
+
 
   const createUserClient = async (formData: FormData) => {
     const createUserData = {
@@ -55,34 +59,38 @@ export default function CreateUserForm() {
       confirmaSenha: formData.get('confirma-senha') as string,
       avatar: avatar,
     };
-
+  
     const result = CreateUserSchema.safeParse(createUserData);
-
+  
     if (!result.success) {
       let errorMsg = "";
-
+  
       result.error.issues.forEach((issue) => {
-        errorMsg = errorMsg + issue.message + '. ';
+        errorMsg += issue.message + '. ';
       });
-
+  
+      if (errorMsg.includes('As senhas não conferem')) {
+        alert('Erro: As senhas digitadas não são iguais. Por favor, tente novamente.');
+      }
+  
       toast.error(errorMsg);
       return;
     }
-
+  
     // Chama o Server Action
     const retorno = await createUser(createUserData as CadCredentials);
     if (retorno) {
       toast.error(retorno.error);
       return;
     }
-
+  
     toast.success('Usuário cadastrado com sucesso!');
     router.push('/user/login'); // Redireciona para a página de login
   };
-
+  
   return (
     <>
-      <Header /> {/* Adiciona o Header aqui */}
+      <Header /> 
       <main>
         <div id="form-container">
           <h2 id="titulo">Crie uma nova conta</h2>
