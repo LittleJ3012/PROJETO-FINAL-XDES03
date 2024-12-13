@@ -126,9 +126,9 @@ export default function PokemonPage() {
                 <div className="chosen-pokemon-grid">
                     {pokemonsEscolhidos.map(poke => {
                         const tipo = poke.types.join(', ');
-                        const ataque = getStat(poke, 'Ataque');
-                        const defesa = getStat(poke, 'Defesa');
-                        const poderEspecial = getStat(poke, 'Ataque Especial');
+                        const ataque = getStat(poke, 'attack');
+                        const defesa = getStat(poke, 'defense');
+                        const poderEspecial = getStat(poke, 'special-defense');
 
                         return (
                             <div className="pokemon-card" key={poke.id}>
