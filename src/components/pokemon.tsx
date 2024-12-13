@@ -31,7 +31,7 @@ export default function PokemonPage() {
     const nomeUsuario = ultimoUsuario?.usuario || 'Usuário'; // Nome do usuário ou 'Usuário' por padrão
     const avatarUsuario = ultimoUsuario?.avatar || 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png'; // Avatar padrão se não houver avatar definido
 
-    const totalPokemons = 146;
+    const totalPokemons = 150;
 
     const getPokemonFromDB = (id: number): Pokemon | undefined => {
         return (pokemonData as Pokemon[]).find(p => p.id === id);
