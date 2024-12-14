@@ -24,6 +24,7 @@ interface Pokemon {
 
 export default function PokemonPage() {
     const [mostrarEquipe, setMostrarEquipe] = useState(false);
+    const [mostrarAvaliacao, setMostrarAvaliacao] = useState(false);
     const [pokemonSelecionados, setPokemonSelecionados] = useState<number[]>([]);
     const [mouseOverBox, setMouseOverBox] = useState<number | null>(null);
     let tooltipTimeout: ReturnType<typeof setTimeout> | null = null;
@@ -72,7 +73,23 @@ export default function PokemonPage() {
 
     const pokemonsEscolhidos = (pokemonData as Pokemon[]).filter(p => pokemonSelecionados.includes(p.id));
 
-    // Página 1: Grade de Pokémons
+    const calcularSomaHP = () => {
+        return pokemonsEscolhidos.reduce((total, poke) => {
+            const hp = getStat(poke, 'hp');
+            return typeof hp === 'number' ? total + hp : total;
+        }, 0);
+    };
+
+    const avaliarTime = () => {
+        const somaHP = calcularSomaHP();
+        if (somaHP > 380) {
+            alert(`Parabéns! Seu time venceu com um total de ${somaHP} HP!`);
+        } else {
+            alert(`Que pena! Seu time perdeu com apenas ${somaHP} HP.`);
+        }
+    };
+
+    // Página 1: Menu principal para escolher os Pokemóns
     const paginaSelecao = (
         <section id="pokemon-selection" className={`page ${!mostrarEquipe ? 'active' : ''}`}>
             <h2>Monte a sua equipe de Pokémons!</h2>
@@ -151,10 +168,55 @@ export default function PokemonPage() {
                    <button className="select-button" onClick={() => setMostrarEquipe(false)}>
                       Voltar ao Menu Principal
                    </button>
+                   <button className="select-button" onClick={() => setMostrarAvaliacao(true)}>
+                    Avançar para Avaliação
+                   </button>
                 </div>
             </div>
         </section>
     );
+
+
+    // Página 3: Avaliação pra ver se a equipe venceu
+    const paginaAvaliacao = (
+        <section id="full-page" className="full-page">
+            <div className="full-page-content">
+                <h2>Avaliação do Poder Total do Time</h2>
+                <div className="separator-tres"></div>
+                <div className="chosen-pokemon-grid">
+                    {pokemonsEscolhidos.map(poke => {
+                        const tipo = poke.types.join(', ');
+                        const hp = getStat(poke, 'hp');
+
+                        return (
+                            <div className="pokemon-card" key={poke.id}>
+                                <img
+                                    src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${poke.id}.png`}
+                                    alt={poke.name}
+                                    className="pokemon"
+                                />
+                                <h3>{poke.name.charAt(0).toUpperCase() + poke.name.slice(1)}</h3>
+                                <p><strong>Tipo:</strong> {tipo}</p>
+                                <p><strong>HP:</strong> {hp}</p>
+                            </div>
+                        );
+                    })}
+                </div>
+                <div className="button-container" style={{ marginTop: '20px' }}>
+                    <button className="select-button" onClick={avaliarTime}>
+                        Avaliar Time
+                    </button>
+                    <button className="select-button" onClick={() => setMostrarAvaliacao(false)}>
+                        Voltar para o Time
+                    </button>
+                    <button className="select-button" onClick={() => setMostrarEquipe(false)}>
+                        Voltar ao Menu Principal
+                    </button>
+                </div>
+            </div>
+        </section>
+    );
+
 
     return (
         <>
@@ -179,7 +241,7 @@ export default function PokemonPage() {
                 </div>
             </header>
             <main>
-                {!mostrarEquipe ? paginaSelecao : paginaEquipe}
+                {!mostrarEquipe ? paginaSelecao : mostrarAvaliacao ? paginaAvaliacao : paginaEquipe}
             </main>
             <footer>
                 <p>Feito com <span className="red">&#10084; </span>por <a href="#">GitHub</a></p>

@@ -238,7 +238,15 @@ h2 {
 
 .button-container {
     text-align: center;
-    margin-top: 30px; 
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    flex-wrap: wrap; 
+}
+
+.button-container button {
+    margin: 10px 5px; 
 }
 
 .select-button {
@@ -327,5 +335,38 @@ h2 {
     height: auto;
     display: block;
     margin: 0 auto 10px auto; 
+}
+
+ /* CSS para a terceira página */
+ .evaluation-heading {
+    color: #ff4500;
+    font-size: 26px;
+    font-family: "Fredoka", sans-serif;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.evaluation-card {
+    background: #f4f4f4;
+    border: 2px solid #ffa07a;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.evaluation-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.evaluate-button {
+    background-color: #ff4500;
+    color: #fff;
+    font-weight: bold;
+}
+
+.evaluate-button:hover {
+    background-color: #ff6347;
 }
 
